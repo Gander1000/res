@@ -1,0 +1,82 @@
+.Products { 
+    padding: 6% 6%;
+    padding-top: 3%;
+    position: relative;
+    background-color:  #f3f5f7;
+  }
+  
+  .contai{
+      background-color: white;
+  }
+
+  
+  .contai_logo{
+    padding: 0 25px;
+  }
+  
+  .logo {
+    background-color: white;  
+    position: relative;
+  
+    .next {
+      background-color: white;
+      position: absolute;
+      top: 32%;
+      left: 97%;
+    }
+
+    hr {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      border: none;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #AF802A, #DFC464);
+  }
+  }
+  
+  .h1 {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-top: 2%;
+    font-size: 24px;
+  }
+  
+  
+  .container {
+    background-color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2%;
+    gap: 20px;
+  
+  }
+  
+  .Popular{
+      width: 100%;
+      background-color: white;
+  }
+
+  .Res{
+    width: 320px;
+  }
+
+  .Products_con{
+    padding-bottom: 20px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  @media (max-width: 1300px) {
+
+    .Products{
+      display: none;
+    }
+  }

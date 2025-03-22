@@ -1,0 +1,668 @@
+.Foter{
+    padding: 5% 10%;
+    background-color: #131212;
+    position: relative;
+}
+
+.container{
+    padding-bottom: 18px;
+    display: flex;
+    gap: 63%;
+}
+
+.socialnetworks{
+    padding-top: 25px;
+}
+
+.Lini {
+    position: absolute;
+    width: 80%;
+    left: 150px;
+    border: none;
+    height: 4px;
+    background: linear-gradient(90deg, #AF802A, #DFC464);
+}
+
+.container_a{
+    display: flex;
+    gap: 220px;
+    padding-top: 30px;
+    color: white;
+
+    p{
+        color:  #e2e2e2da;
+    }
+}
+
+.Logo{
+    width: 280px;
+}
+
+.Logo_mob{
+    display: none;
+}
+
+.Fot{
+    
+}
+
+.container_b{
+    display: flex;
+    gap: 80px;
+
+    .links{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+
+        a{
+            text-decoration: none;
+            color: #e2e2e2da;
+            font-size: 14px;
+            font-weight: 400;
+            transition: 0.4s;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.h1{
+    padding: 0;
+    padding-bottom: 5px;
+    font-size: 16px;
+    background-color: #131212;
+}
+
+
+.h1_a{
+    padding: 0;
+    font-size: 20px;
+    background-color: #131212;
+    text-decoration: none;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: right;
+
+    p{
+        color: #979797;
+        font-size: 14px;
+    }
+
+    a{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-decoration: underline;
+        text-decoration-color: #979797;
+    }
+}
+
+.Foter_p{
+    position: absolute;
+    top: 94%;
+    color: #979797;
+    font-size: 12px;
+}
+
+@media (max-width: 1300px) {
+
+    .Foter{
+        padding: 10% 6%;
+        background-color: #131212;
+        position: relative;
+    }
+    
+    .container{
+        padding-bottom: 18px;
+        display: flex;
+        gap: 58%;
+    }
+    
+    .socialnetworks{
+        padding-top: 0;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 85%;
+        left: 80px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container_a{
+        display: flex;
+        gap: 90px;
+        padding-top: 30px;
+        color: white;
+    
+        p{
+            color:  #e2e2e2da;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    }
+    
+    .Logo{
+        padding-left: 18px;
+        display: flex;
+        width: 200px;
+    }
+
+    .Logo_mob{
+        display: none;
+    }
+    
+    .Fot{
+        
+    }
+    
+    .container_b{
+        display: flex;
+        gap: 80px;
+    
+        .links{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+    
+            a{
+                text-decoration: none;
+                color: #e2e2e2da;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .h1{
+        display: flex;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+    
+    .h1_a{
+        display: flex;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .data{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-bottom: 70px;
+        
+    
+        p{
+            color: #979797;
+            font-size: 14px;
+        }
+    
+        a{
+            color: #FFFFFF;
+            font-size: 12px;
+            text-decoration: underline;
+            text-decoration-color: #979797;
+        }
+    }
+    
+    .Foter_p{
+        position: absolute;
+        top: 94%;
+        color: #979797;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .Foter{
+        padding: 10% 6%;
+        background-color: #131212;
+        position: relative;
+    }
+    
+    .container{
+        padding-bottom: 18px;
+        display: flex;
+        gap: 40%;
+    }
+    
+    .socialnetworks{
+        padding-top: 0;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 90%;
+        left: 60px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container_a{
+        display: flex;
+        gap: 40px;
+        padding-top: 30px;
+        color: white;
+    
+        p{
+            color:  #e2e2e2da;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    }
+    
+    .Logo{
+        padding-left: 18px;
+        display: flex;
+        width: 200px;
+    }
+
+    .Logo_mob{
+        display: none;
+    }
+    
+    .Fot{
+        
+    }
+    
+    .container_b{
+        display: flex;
+        gap: 30px;
+    
+        .links{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+    
+            a{
+                text-decoration: none;
+                color: #e2e2e2da;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .h1{
+        display: flex;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+    
+    .h1_a{
+        display: flex;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .data{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-bottom: 70px;
+        
+    
+        p{
+            color: #979797;
+            font-size: 14px;
+        }
+    
+        a{
+            color: #FFFFFF;
+            font-size: 12px;
+            text-decoration: underline;
+            text-decoration-color: #979797;
+        }
+    }
+    
+    .Foter_p{
+        position: absolute;
+        top: 94%;
+        color: #979797;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .Foter{
+        padding: 10% 6%;
+        background-color: #131212;
+        position: relative;
+    }
+    
+    .container{
+        padding-bottom: 18px;
+        display: flex;
+        gap: 40%;
+    }
+    
+    .socialnetworks{
+        padding-top: 0;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 85%;
+        left: 50px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container_a{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        padding-top: 30px;
+        color: white;
+    
+        p{
+            color:  #e2e2e2da;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    }
+
+
+
+    .Logo{
+        display: flex;
+        width: 120px;
+    }
+    
+    .Fot{
+        
+    }
+    
+    .container_b{
+        display: flex;
+        gap: 80px;
+    
+        .links{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+    
+            a{
+                text-decoration: none;
+                color: #e2e2e2da;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .h1{
+        display: flex;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+    
+    .h1_a{
+        display: flex;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .data{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-bottom: 70px;
+        
+    
+        p{
+            color: #979797;
+            font-size: 14px;
+        }
+    
+        a{
+            color: #FFFFFF;
+            font-size: 12px;
+            text-decoration: underline;
+            text-decoration-color: #979797;
+        }
+    }
+    
+    .Foter_p{
+        position: absolute;
+        top: 94%;
+        color: #979797;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .Foter{
+        padding: 10% 6%;
+        background-color: #131212;
+        position: relative;
+    }
+    
+    .container{
+        padding-bottom: 18px;
+        display: flex;
+        gap: 8%;
+    }
+    
+    .socialnetworks{
+        padding-top: 0;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 85%;
+        left: 20px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container_a{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 30px;
+        color: white;
+    
+        p{
+            color:  #e2e2e2da;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    }
+    
+
+    .Logo{
+        display: flex;
+        width: 118px;
+    }
+    
+    .Fot{
+        
+    }
+    
+    .container_b{
+        display: flex;
+        gap: 80px;
+    
+        .links{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+    
+            a{
+                text-decoration: none;
+                color: #e2e2e2da;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .h1{
+        display: flex;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+    
+    .h1_a{
+        display: flex;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .data{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-bottom: 70px;
+        
+    
+        p{
+            color: #979797;
+            font-size: 14px;
+        }
+    
+        a{
+            color: #FFFFFF;
+            font-size: 12px;
+            text-decoration: underline;
+            text-decoration-color: #979797;
+        }
+    }
+    
+    .Foter_p{
+        position: absolute;
+        top: 94%;
+        color: #979797;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .Foter{
+        padding: 10% 6%;
+        background-color: #131212;
+        position: relative;
+    }
+    
+    .container{
+        padding-bottom: 18px;
+        display: flex;
+        gap: 8%;
+    }
+    
+    .socialnetworks{
+        padding-top: 0;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 85%;
+        left: 20px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container_a{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 30px;
+        color: white;
+    
+        p{
+            color:  #e2e2e2da;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    }
+    
+
+    .Logo{
+        display: flex;
+        width: 118px;
+    }
+    
+    .Fot{
+        
+    }
+    
+    .container_b{
+        display: flex;
+        gap: 80px;
+    
+        .links{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+    
+            a{
+                text-decoration: none;
+                color: #e2e2e2da;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .h1{
+        display: flex;
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+    
+    .h1_a{
+        display: flex;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .data{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-bottom: 70px;
+        
+    
+        p{
+            color: #979797;
+            font-size: 14px;
+        }
+    
+        a{
+            color: #FFFFFF;
+            font-size: 12px;
+            text-decoration: underline;
+            text-decoration-color: #979797;
+        }
+    }
+    
+    .Foter_p{
+        position: absolute;
+        top: 94%;
+        color: #979797;
+        font-size: 12px;
+    }
+}

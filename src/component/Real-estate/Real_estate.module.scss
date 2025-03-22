@@ -1,0 +1,244 @@
+.Real_estate {
+    padding: 10%;
+    padding-top: 4%;
+    padding-left: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contei_logo{
+    padding: 0 35px;
+}
+
+.logo {
+    background-color: white;
+    position: relative;
+    width: 100%;
+  
+    hr {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      border: none;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #AF802A, #DFC464);
+  }
+
+}
+
+.h1 {
+    padding-bottom: 20px;
+    padding-left: 0;
+    font-size: 24px;
+}
+
+
+.cart{
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cart_a{
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1300px) {
+
+    .Real_estate {
+        padding: 6%;
+        padding-top: 4%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h1 {
+        background-color: white;
+        padding-left: 0;
+        padding-bottom: 20px;
+        padding-top: 2%;
+        font-size: 24px;
+    }
+
+    .contei_logo{
+        padding: 0 7%;
+    }
+    
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+
+        img{
+            width: 100%;
+            max-width: 220px;
+        }
+    }
+    
+    .cart_a{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+
+        img{
+            width: 100%;
+            max-width: 220px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+
+    .Real_estate {
+        padding: 6%;
+        padding-top: 4%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h1 {
+        background-color: white;
+        padding-left: 0;
+        padding-bottom: 20px;
+        padding-top: 2%;
+        font-size: 22px;
+    }
+
+    .contei_logo{
+        padding: 0 8%;
+    }
+    
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img{
+            width: 100%;
+            max-width: 250px;
+            
+            @media (max-width: 600px) {
+                
+                width: 100%;
+                max-width: 360px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .Real_estate {
+        padding: 6%;
+        padding-top: 4%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h1 {
+        background-color: white;
+        padding-left: 0;
+        padding-bottom: 20px;
+        padding-top: 2%;
+        font-size: 24px;
+    }
+
+    .contei_logo{
+        padding: 0 10%;
+    }
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img{
+            width: 320px;
+        }
+    }
+    
+    .cart_a{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img{
+            width: 320px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+
+    .Real_estate {
+        padding: 10% 6%;
+        padding-top: 2%;
+        position: relative;
+        display: flex;
+    }
+    
+    .h1 {
+        display: flex;
+        background-color: white;
+        padding-bottom: 20px;
+        padding-top: 8%;
+        padding-left: 0;
+        font-size: 20px;
+        position: relative;
+    }
+
+    .contei_logo{
+        padding: 0 0;
+    }
+
+    .cart{
+        padding-top: 15px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cart img{
+        width: 100%;
+    }
+
+
+    .cart_a{
+        display: none;
+    }
+    
+}

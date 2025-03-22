@@ -1,0 +1,273 @@
+.Interview {
+    padding: 10%;
+    padding-top: 4%;
+    padding-left: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding-bottom: 20px;
+    padding-left: 35px;
+    font-size: 24px;
+}
+
+.Lini {
+    position: absolute;
+    width: 75%;
+    left: 189px;
+    top: 110px;
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, #AF802A, #DFC464);
+}
+
+.cart{
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1300px) {
+
+    .Interview {
+        padding: 10%;
+        padding-top: 4%;
+        padding-left: 10%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1 {
+        background-color: white;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-top: 2%;
+        font-size: 22px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 80%;
+        left: 125px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #af802a, #dfc464);
+    }
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+
+        img{
+            width: 100%;
+            max-width: 235px;
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .Interview {
+        padding: 10%;
+        padding-top: 4%;
+        padding-left: 10%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1 {
+        background-color: white;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-top: 2%;
+        font-size: 22px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 81%;
+        left: 10%;
+        border: none;
+        height: 3px;
+        background: linear-gradient(90deg, #af802a, #dfc464);
+    }
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 100%;
+            width: 150px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+
+    .Interview {
+        padding: 10%;
+        padding-top: 4%;
+        padding-left: 10%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1 {
+        background-color: white;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 2%;
+        font-size: 20px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 77%;
+        left: 81px;
+        top: 5%;
+        border: none;
+        height: 3px;
+        background: linear-gradient(90deg, #af802a, #dfc464);
+
+        
+        @media (max-width: 630px) {
+            position: absolute;
+            width: 77%;
+            left: 70px;
+            top: 70px;
+            border: none;
+            height: 3px;
+            background: linear-gradient(90deg, #af802a, #dfc464);
+        }
+
+        @media (max-width: 520px) {
+            position: absolute;
+            width: 77%;
+            left: 59px;
+            top: 65px;
+            border: none;
+            height: 3px;
+            background: linear-gradient(90deg, #af802a, #dfc464);
+        }
+    }
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img{
+            width: 260px;
+
+            @media (max-width: 620px) {
+                width: 455px;
+                max-width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .Interview {
+        padding: 10%;
+        padding-top: 4%;
+        padding-left: 10%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h1 {
+        background-color: white;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-top: 2%;
+        font-size: 22px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 77%;
+        left: 53px;
+        top: 70px;
+        border: none;
+        height: 3px;
+        background: linear-gradient(90deg, #af802a, #dfc464);
+    }
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        img{
+            width: 360px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+
+    .Interview {
+        padding: 10% 6%;
+        padding-top: 2%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h1 {
+        display: flex;
+        background-color: white;
+        padding-bottom: 20px;
+        padding-top: 8%;
+        padding-left: 1px;
+        font-size: 20px;
+        position: relative;
+    }
+    
+    .Lini {
+        position: absolute;
+        top: 73px;
+        width: 88%;
+        left: 20px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #af802a, #dfc464);
+    }
+    
+    .cart{
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        img{
+            width: 100%;
+        }
+    }
+}

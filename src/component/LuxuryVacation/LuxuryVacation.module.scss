@@ -1,0 +1,717 @@
+.LuxuryVacation{
+    padding: 10%;
+    padding-top: 4%;
+    padding-left: 10%;
+    position: relative;
+}
+
+.logo {
+    padding-bottom: 50px;
+    padding-left: 35px;
+    font-size: 24px;
+}
+
+.Lini {
+    position: absolute;
+    width: 75%;
+    left: 189px;
+    top: 105px;
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, #AF802A, #DFC464);
+}
+
+.container{
+    padding-left: 38px;
+    display: flex;
+    gap: 20px;
+}
+
+.cub_image{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mini_cub{
+    display: flex;
+    gap: 20px;
+}
+
+.Cub_title{
+    padding-bottom: 12px;
+    display: flex;
+    gap: 127px;
+
+    p {
+        font-weight: 500;
+        font-size: 12px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h1{
+        padding: 0;
+        line-height: 1.1;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    span{
+        font-size: 10px;
+        font-weight: 400;
+        color: #979797;
+    }
+    
+}
+
+.title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.time{
+    top: 93%;
+    position: absolute;
+    z-index: 30;
+    display: flex;
+    gap: 6px;
+}
+
+.image{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_mob{
+    display: none;
+}
+
+.Lux{
+    display: none;
+}
+
+@media (max-width: 1300px) {
+
+    .LuxuryVacation{
+        padding: 5%;
+        padding-top: 4%;
+        position: relative;
+    }
+    
+    .logo {
+        padding-bottom: 50px;
+        padding-left: 0px;
+        font-size: 24px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 90%;
+        left: 60px;
+        top: 4%;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Hotel{
+        width: 100%;
+    }
+    
+    .cub_image{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .mini_cub{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .Cub_title{
+        width: 100%;
+        padding-bottom: 12px;
+        display: none;
+        gap: 127px;
+    
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            background: linear-gradient(90deg, #AF802A, #DFC464);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        h1{
+            padding: 0;
+            line-height: 1.1;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    
+        span{
+            font-size: 10px;
+            font-weight: 400;
+            color: #979797;
+        }
+        
+    }
+    
+    .title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 5px;
+        }
+    }
+    
+    .time{
+        top: 93%;
+        position: absolute;
+        z-index: 30;
+        display: flex;
+        gap: 6px;
+    }
+    
+    .image{
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .image_mob{
+        display: none;
+    }
+    
+    .Lux{
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .LuxuryVacation{
+        padding: 5%;
+        padding-top: 4%;
+        position: relative;
+    }
+    
+    .logo {
+        padding-bottom: 50px;
+        padding-left: 0px;
+        font-size: 24px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 90%;
+        left: 53px;
+        top: 90px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Hotel{
+        width: 100%;
+    }
+    
+    .cub_image{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .mini_cub{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .Cub_title{
+        width: 100%;
+        padding-bottom: 12px;
+        display: none;
+        gap: 127px;
+    
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            background: linear-gradient(90deg, #AF802A, #DFC464);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        h1{
+            padding: 0;
+            line-height: 1.1;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    
+        span{
+            font-size: 10px;
+            font-weight: 400;
+            color: #979797;
+        }
+        
+    }
+    
+    .title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 5px;
+        }
+    }
+    
+    .time{
+        top: 93%;
+        position: absolute;
+        z-index: 30;
+        display: flex;
+        gap: 6px;
+    }
+    
+    .image{
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .image_mob{
+        display: none;
+    }
+    
+    .Lux{
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .LuxuryVacation{
+        padding: 5%;
+        padding-top: 4%;
+        position: relative;
+    }
+    
+    .logo {
+        padding-bottom: 50px;
+        padding-left: 0px;
+        font-size: 24px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 90%;
+        left: 35px;
+        top: 75px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Hotel{
+        width: 100%;
+    }
+    
+    .cub_image{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+
+        img{
+            width: 100%;
+
+            @media (max-width: 620px) {
+                width: 218px;
+            }
+        }
+
+    }
+    
+    .mini_cub{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .Cub_title{
+        width: 100%;
+        padding-bottom: 12px;
+        display: none;
+        gap: 127px;
+    
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            background: linear-gradient(90deg, #AF802A, #DFC464);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        h1{
+            padding: 0;
+            line-height: 1.1;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    
+        span{
+            font-size: 10px;
+            font-weight: 400;
+            color: #979797;
+        }
+        
+    }
+    
+    .title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 5px;
+        }
+    }
+    
+    .time{
+        top: 93%;
+        position: absolute;
+        z-index: 30;
+        display: flex;
+        gap: 6px;
+    }
+    
+    .image{
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .image_mob{
+        display: none;
+    }
+    
+    .Lux{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .LuxuryVacation{
+        padding: 5%;
+        padding-top: 4%;
+        position: relative;
+    }
+    
+    .logo {
+        padding-bottom: 50px;
+        padding-left: 0px;
+        font-size: 24px;
+    }
+    
+    .Lini {
+        position: absolute;
+        width: 90%;
+        left: 22px;
+        top: 65px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+    }
+    
+    .container{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Hotel{
+        width: 100%;
+    }
+    
+    .cub_image{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .mini_cub{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .Cub_title{
+        width: 100%;
+        padding-bottom: 12px;
+        display: none;
+        gap: 127px;
+    
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            background: linear-gradient(90deg, #AF802A, #DFC464);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        h1{
+            padding: 0;
+            line-height: 1.1;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    
+        span{
+            font-size: 10px;
+            font-weight: 400;
+            color: #979797;
+        }
+        
+    }
+    
+    .title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 5px;
+        }
+    }
+    
+    .time{
+        top: 93%;
+        position: absolute;
+        z-index: 30;
+        display: flex;
+        gap: 6px;
+    }
+    
+    .image{
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .image_mob{
+        display: none;
+    }
+    
+    .Lux{
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .LuxuryVacation{
+        padding: 10% 6%;
+        position: relative;
+        padding-top: 2%;
+    }
+    
+    .logo {
+        display: flex;
+        background-color: white;
+        padding-bottom: 30px;
+        padding-top: 8%;
+        padding-left: 1px;
+        font-size: 20px;
+        position: relative;
+    }
+    
+    .Lini {
+        position: absolute;
+        top: 63px;
+        width: 88%;
+        left: 20px;
+        border: none;
+        height: 4px;
+        background: linear-gradient(90deg, #af802a, #dfc464);
+    }
+    
+    .container{
+        display: none;
+    }
+    
+    .cub_image{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .mini_cub{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .Cub_title{
+        padding-bottom: 12px;
+        display: flex;
+        gap: 127px;
+    
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            background: linear-gradient(90deg, #AF802A, #DFC464);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        h1{
+            padding: 0;
+            line-height: 1.1;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    
+        span{
+            font-size: 10px;
+            font-weight: 400;
+            color: #979797;
+        }
+        
+    }
+    
+    .title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    .time{
+        top: 93%;
+        position: absolute;
+        z-index: 30;
+        display: flex;
+        gap: 6px;
+    }
+    
+    .image{
+        display: none;
+    }
+
+    .image_mob{
+        display: flex;
+    }
+    
+    .Lux{
+        display: flex;
+    }
+
+    .Lux{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}

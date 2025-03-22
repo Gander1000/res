@@ -1,0 +1,555 @@
+.Rest {
+  padding: 6% 6%;
+  padding-top: 3%;
+  position: relative;
+  background-color: #f3f5f7;
+}
+
+.contai {
+  background-color: white;
+}
+
+.contai_logo{
+  padding: 0 25px;
+}
+
+.logo {
+  background-color: white;
+  position: relative;
+
+  .next {
+    background-color: white;
+    position: absolute;
+    top: 32%;
+    left: 97%;
+  }
+
+  hr {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border: none;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #AF802A, #DFC464);
+}
+}
+
+.h1 {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-top: 2%;
+  font-size: 24px;
+}
+
+
+.container {
+  background-color: white;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2%;
+  gap: 20px;
+}
+
+.Popular {
+  background-color: white;
+  width: 300px;
+}
+
+.Res {
+  width: 320px;
+}
+
+.Popular_con {
+  padding-bottom: 20px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.Popular_con_a {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .Rest {
+    padding: 6% 6%;
+    padding-top: 3%;
+    position: relative;
+    background-color: #f3f5f7;
+  }
+
+  .contai {
+    background-color: white;
+  }
+
+  .contai_logo{
+    padding: 0 10%;
+  }
+
+  .logo {
+    background-color: white;
+    position: relative;
+
+    .next {
+      background-color: white;
+      position: absolute;
+      top: 20%;
+      left: 94%;
+    }
+  }
+
+  .h1 {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-top: 2%;
+    font-size: 22px;
+  }
+
+
+  .container {
+    background-color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 6%;
+    gap: 20px;
+  }
+
+  .container_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    img {
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+
+  .Popular {
+    width: 400px;
+    background-color: white;
+  }
+
+  .Resta {
+    width: 850px;
+  }
+
+  .Popular_con {
+    padding-bottom: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Popular_con_a {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .Rest {
+    padding: 6% 6%;
+    padding-top: 3%;
+    position: relative;
+    background-color: #f3f5f7;
+  }
+
+  .contai {
+    background-color: white;
+  }
+
+  .contai_logo{
+    padding: 0 15%;
+  }
+
+  .logo {
+    background-color: white;
+    position: relative;
+
+    .next {
+      background-color: white;
+      position: absolute;
+      top: 10%;
+      left: 93%;
+    }
+  }
+
+  .h1 {
+    background-color: white;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-top: 2%;
+    font-size: 22px;
+  }
+
+
+  .container {
+    background-color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 6%;
+    gap: 20px;
+  }
+
+  .container_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    img {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+
+  .Popular {
+    width: 100%;
+    max-width: 290px;
+    background-color: white;
+  }
+
+  .Resta {
+    width: 850px;
+  }
+
+  .Popular_con {
+    padding-bottom: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Popular_con_a {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .Popularones {
+    padding: 6% 6%;
+    padding-top: 3%;
+    position: relative;
+    background-color: #f3f5f7;
+  }
+
+  .contai {
+    background-color: white;
+  }
+
+  .contai_logo{
+    padding: 0 6%;
+  }
+
+  .logo {
+    background-color: white;
+    position: relative;
+
+    .next {
+      background-color: white;
+      position: absolute;
+      top: 20%;
+      left: 92%;
+    }
+  }
+
+  .h1 {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-top: 2%;
+    font-size: 22px;
+  }
+
+
+  .container {
+    background-color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 6%;
+    gap: 20px;
+  }
+
+  .Popular {
+    width: 100%;
+    max-width: 240px;
+    background-color: white;
+
+    @media (max-width: 650px) {
+
+      width: 100%;
+      max-width: 190px;
+      background-color: white;
+    }
+  }
+
+  .container_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    img {
+      width: 100%;
+      max-width: 240px;
+
+      @media (max-width: 680px) {
+
+        width: 100%;
+        max-width: 200px;
+      }
+
+      @media (max-width: 650px) {
+
+        width: 100%;
+        max-width: 180px;
+        background-color: white;
+      }
+
+      @media (max-width: 530px) {
+
+        width: 100%;
+        max-width: 170px;
+        background-color: white;
+      }
+
+      @media (max-width: 650px) {
+
+        width: 100%;
+        max-width: 150px;
+        background-color: white;
+      }
+    }
+  }
+
+  .Res {
+    width: 320px;
+  }
+
+  .Resta {
+    width: 100%;
+  }
+
+  .Popular_con {
+    padding-bottom: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Popular_con_a {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .Popularones {
+    padding: 6% 6%;
+    padding-top: 3%;
+    position: relative;
+    background-color: #f3f5f7;
+  }
+
+  .contai {
+    background-color: white;
+  }
+
+  .contai_logo{
+    padding: 0 10%;
+  }
+
+  .logo {
+    background-color: white;
+    position: relative;
+
+    .next {
+      background-color: white;
+      position: absolute;
+      top: 1%;
+      left: 88%;
+    }
+  }
+
+  .h1 {
+    background-color: white;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-top: 2%;
+    font-size: 20px;
+  }
+
+
+  .container {
+    background-color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 6%;
+    gap: 20px;
+  }
+
+  .Popular {
+    width: 100%;
+    max-width: 320px;
+    background-color: white;
+  }
+
+  .container_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    img {
+      width: 100%;
+      max-width: 320px;
+    }
+
+  }
+
+  .Res {
+    width: 100%;
+  }
+
+  .Resta {
+    display: none;
+  }
+
+  .Popular_con {
+    padding-bottom: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Popular_con_a {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .Rest {
+    padding: 6% 6%;
+    padding-top: 3%;
+    position: relative;
+    background-color: white;
+  }
+
+  .contai {
+    background-color: white;
+  }
+
+  .contai_logo{
+    padding: 0 0;
+  }
+
+  .logo {
+    background-color: white;
+    position: relative;
+
+    .next {
+      background-color: white;
+      position: absolute;
+      top: 19%;
+      left: 87%;
+    }
+
+    hr{
+      top: 80%;
+    }
+  }
+
+  .Resta {
+    display: none;
+  }
+
+  .h1 {
+    display: flex;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 8%;
+    padding-left: 0;
+    font-size: 20px;
+    position: relative;
+  }
+
+  .Lini {
+    position: absolute;
+    top: 66px;
+    width: 85%;
+    left: 25px;
+    border: none;
+    height: 4px;
+    background: linear-gradient(90deg, #af802a, #dfc464);
+  }
+
+  .container {
+    background-color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 20px;
+  }
+
+  .Popular {
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .Res {
+    width: 100%;
+  }
+
+  .Popular_con {
+    display: none;
+  }
+
+  .Popular_con_a {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+}
