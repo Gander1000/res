@@ -9,7 +9,7 @@ import banner from "../../assets/banner_7.svg";
 import banner_a from "../../assets/banner_8.svg";
 import banner_b from "../../assets/banner_9.svg";
 
-const images = [banner, banner_a, banner_b];
+const images = [banner, banner_a, banner_b,banner_a,banner, banner_a,];
 
 const Offer = () => {
   const sliderRef = useRef(null);
@@ -17,14 +17,20 @@ const Offer = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true, 
     autoplaySpeed: 2500, 
     pauseOnHover: true, 
-    variableWidth: true, 
     responsive: [
+      {
+        breakpoint: 875,
+        settings: {
+          slidesToShow: 3,
+          variableWidth: false, 
+        },
+      },
       {
         breakpoint: 720,
         settings: {

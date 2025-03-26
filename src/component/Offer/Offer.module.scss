@@ -7,7 +7,9 @@
 .container{
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
 }
 
 
@@ -29,8 +31,13 @@ hr {
 }
 
 .reklamo {
-  width: 98%;
+  width: 100%;
 }
+
+.reklam{
+  width: 100%;
+}
+
 
 .next {
   display: flex;
