@@ -391,6 +391,10 @@
     .container_b{
         display: flex;
         gap: 80px;
+
+        @media (max-width: 630px) {
+            gap: 150px;
+        }
     
         .links{
             display: flex;
@@ -422,6 +426,7 @@
     .data{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         text-align: start;
         padding-bottom: 70px;
         
