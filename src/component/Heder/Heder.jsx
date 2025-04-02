@@ -14,13 +14,6 @@ const Heder = () => {
   const [inputValue, setInputValue] = useState("");
   const [isSearchOpen, setSearchOpen] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 360);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   const toggleDropdown = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
