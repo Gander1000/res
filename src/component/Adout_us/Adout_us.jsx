@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import scss from "./Adout_us.module.scss";
 import Adout from "../../assets/Adout.svg";
 import text from "../../assets/Text_us.svg";
@@ -18,6 +19,10 @@ import image_mob_b from "../../assets/4.png";
 import foter from "../../assets/foter.svg";
 
 function Adout_us() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className={scss.Adout_us}>
       <div className={scss.container}>
@@ -30,8 +35,8 @@ function Adout_us() {
       </div>
       <div className={scss.container_a}>
         <div className={scss.logo_a}>
-        <h1>О КОМПАНИИ</h1>
-        <hr />
+          <h1>О КОМПАНИИ</h1>
+          <hr />
         </div>
         <div className={scss.container_imag}>
           <img className={scss.img_mob} src={title} alt="" />
@@ -66,7 +71,7 @@ function Adout_us() {
           </div>
         </div>
         <div className={scss.box_mob}>
-        <img src={foter} alt="" />
+          <img src={foter} alt="" />
         </div>
       </div>
     </section>
@@ -74,3 +79,4 @@ function Adout_us() {
 }
 
 export default Adout_us;
+
