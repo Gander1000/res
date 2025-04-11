@@ -8,13 +8,13 @@
 }
 
 .contei_logo{
-    padding: 0 35px;
+    padding: 0;
+    width: 100%;
 }
 
 .logo {
     background-color: white;
     position: relative;
-    width: 100%;
   
     hr {
       position: absolute;
@@ -24,221 +24,94 @@
       left: 0;
       height: 3px;
       background: linear-gradient(90deg, #AF802A, #DFC464);
+
+      @media (max-width: 780px) {
+        top: 90%;
+      }
   }
 
 }
 
 .h1 {
     padding-bottom: 20px;
-    padding-left: 0;
     font-size: 24px;
+    padding-left: 0;
+    display: block;
 }
 
-
-.cart{
-    padding-top: 30px;
-    justify-content: center;
-    align-items: center;
+.container_body{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.cart_a{
-    padding-top: 30px;
-    justify-content: center;
-    align-items: center;
+.container {
+    background-color: white;
+    padding-top: 10px;
     display: flex;
+    padding: 2%;
     gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  
+    @media (max-width: 1080px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    @media (max-width: 780px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    @media (max-width: 480px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    @media (max-width: 400px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
 }
-
-@media (max-width: 1300px) {
-
-    .Real_estate {
-        padding: 6%;
-        padding-top: 4%;
-        position: relative;
-        display: flex;
-        flex-direction: column;
+  
+  .cub_img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
-    
-    .h1 {
-        background-color: white;
-        padding-left: 0;
-        padding-bottom: 20px;
-        padding-top: 2%;
-        font-size: 24px;
+  
+    p {
+      font-weight: 600;
+      font-size: 12px;
+      background: linear-gradient(90deg, #af802a, #dfc464);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-
-    .contei_logo{
-        padding: 0 7%;
+  
+    span {
+      padding: 0;
+      line-height: 1.1;
+      font-size: 16px;
+      font-weight: 700;
     }
-    
-    
-    .cart{
-        padding-top: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+  
+    h6 {
+      font-size: 13px;
+      font-weight: 400;
+      color: #979797;
+      display: flex;
+      gap: 5px;
+  
+      img {
+        padding-top: 5px;
         width: 100%;
-
-        img{
-            width: 100%;
-            max-width: 220px;
-        }
+        max-width: 4px;
+        max-height: 4px;
+      }
     }
-    
-    .cart_a{
-        padding-top: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        width: 100%;
-
-        img{
-            width: 100%;
-            max-width: 220px;
-        }
-    }
-}
-
-@media (max-width: 720px) {
-
-    .Real_estate {
-        padding: 6%;
-        padding-top: 4%;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .h1 {
-        background-color: white;
-        padding-left: 0;
-        padding-bottom: 20px;
-        padding-top: 2%;
-        font-size: 22px;
-    }
-
-    .contei_logo{
-        padding: 0 8%;
-    }
-    
-    
-    .cart{
-        padding-top: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-
-        img{
-            width: 100%;
-            max-width: 250px;
-            
-            @media (max-width: 600px) {
-                
-                width: 100%;
-                max-width: 360px;
-            }
-        }
-    }
-    
-}
-
-@media (max-width: 480px) {
-
-    .Real_estate {
-        padding: 6%;
-        padding-top: 4%;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .h1 {
-        background-color: white;
-        padding-left: 0;
-        padding-bottom: 20px;
-        padding-top: 2%;
-        font-size: 24px;
-    }
-
-    .contei_logo{
-        padding: 0 10%;
-    }
-    
-    .cart{
-        padding-top: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-
-        img{
-            width: 320px;
-        }
-    }
-    
-    .cart_a{
-        padding-top: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-
-        img{
-            width: 320px;
-        }
-    }
-}
-
-@media (max-width: 360px) {
-
-    .Real_estate {
-        padding: 10% 6%;
-        padding-top: 2%;
-        position: relative;
-        display: flex;
-    }
-    
-    .h1 {
-        display: flex;
-        background-color: white;
-        padding-bottom: 20px;
-        padding-top: 8%;
-        padding-left: 0;
-        font-size: 20px;
-        position: relative;
-    }
-
-    .contei_logo{
-        padding: 0 0;
-    }
-
-    .cart{
-        padding-top: 15px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .cart img{
-        width: 100%;
-    }
-
-
-    .cart_a{
-        display: none;
-    }
-    
 }

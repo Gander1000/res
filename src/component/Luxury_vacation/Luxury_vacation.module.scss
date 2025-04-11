@@ -1,7 +1,7 @@
 .Luxury_vacation{
-    padding: 10%;
+    padding: 8%;
     padding-top: 4%;
-    padding-left: 10%;
+    padding-left: 8%;
 }
 
 .Group{
@@ -57,18 +57,154 @@
 
 .hotel{
     padding-bottom: 70px;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .container_title{
     position: relative;
     display: flex;
+    gap: 30px;
+    width: 100%;
+
+    h1{
+        padding-bottom: 10px;
+    }
+
+    span{
+        line-height: 1.6;
+        font-size: 17px;
+    }
+
+    p{
+        line-height: 1.6;
+        font-size: 17px;
+    }
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
-.content{
-    padding-bottom: 200px;
-    width: 850px;
+.contei_img_title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+
+    img{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
 }
+
+.img_comtei{
+    width: 100%;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.contoiner {
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+    padding-right: 0;
+    gap: 20px;
+    width: 100%;
+    
+  }
+  
+  .cub_img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    p {
+      font-weight: 600;
+      font-size: 12px;
+      background: linear-gradient(90deg, #AF802A, #DFC464);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  span{
+      padding: 0;
+      line-height: 1.1;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  h6{
+      font-size: 13px;
+      font-weight: 400;
+      color: #979797;
+      display: flex;
+      gap: 5px;
+  
+      img{
+        padding-top: 5px;
+        width: 100%;
+        max-width: 4px;
+        max-height: 4px;
+      }
+  }
+  
+}
+
+
+.container_button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comtei_buttom{
+    display: flex;
+    gap: 10px;
+
+    @media (max-width: 420px) {
+        gap: 5px;
+    }
+
+    button{
+        padding: 15px 25px;
+        font-size: 12px;
+        background-color: #F5F7FA;
+        color: #787878;
+        border-radius: 20px;
+        border: none;
+        transition: 0.3s;
+
+        @media (max-width: 420px) {
+            padding: 10px 20px;
+        }
+        
+
+        &:hover{
+            background-color: #d0d0d0;
+        }
+    }
+}
+  
 
 .real_eatate_hotel{
     display: flex;
@@ -83,7 +219,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-right: 380px;
 }
 
 .coment h1{
@@ -116,20 +251,6 @@
     border: none;
 }
 
-
-.container_img{
-    padding: 30px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    position: relative;
-
-    img{
-        margin-top: 150px;
-        width: 864px;
-        height: 140px;
-    }
-}
 
 .coment_a{
     position: absolute;
@@ -195,12 +316,7 @@
     line-height: 1.5;
 }
 
-.coment {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding-right: 380px;
-}
+
 
 .coment h1 {
     font-size: 22px;
@@ -241,699 +357,24 @@
     background: linear-gradient(90deg, #dfc464, #af802a);
 }
 
+@media (max-width: 760px) {
 
-@media (max-width: 1300px) {
-
-    .Luxury_vacation{
-        padding: 10%;
-        padding-top: 4%;
-        padding-left: 10%;
-    }
-    
-    .Group{
-        padding: 30px;
-        padding-left: 0;
-        padding-bottom: 10px;
-    }
-    
-    .conteiner{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .p{
-        margin-top: 30px;
-        padding: 6px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-    }
-    
-    .container h1{
-        padding: 0;
-        padding-top: 30px;
-        font-size: 26px;
-        font-weight: 700;
-    }
-    
-    .logo{
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    
-    .logo p{
-        font-size: 14px;
-        color: #131212;
-        font-weight: 500;
-    }
-    
-    .logo span{
-        font-size: 14px;
-        font-weight: 400;
-        color: #979797;
-    
-        img{
-         padding: 2px 2px;
-        }
-    }
-    
-    .hotel{
-        padding-bottom: 70px;
-        width: 100%;
-    }
-    
     .container_title{
-        position: relative;
-        display: flex;
-        gap: 0;
-    }
-
-    .real_eatate_hotel{
-        display: none;
-    }
-    
-    .content{
-        width: 100%;
-        max-width: 1000px;
-        padding-bottom: 20%;
-    }
-    
-    .Teg{
-        position: absolute;
-        top: 93%;
-    }
-    
-    .coment{
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        padding-right: 380px;
-    }
-    
-    .coment h1{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    
-    .inp_a{
-        color: #979797;
-        padding: 12px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    
-    .inp_b{
-        font-size: 16px;
-        font-weight: 400;
-        color: #979797;
-        padding: 12px;
-        padding-bottom: 50px;
-    }
-    
-    .coment button{
-        padding: 14px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-        border: none;
-    }
-    
-    
-    .container_img{
-        padding: 30px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: relative;
-    
-        img{
-            margin-top: 150px;
-            width: 864px;
-            height: 140px;
-        }
-    }
-    
-    .coment_a{
-        position: absolute;
-        top: -35%;
-        left: -9px;
-    }
-    
-    .coment_mob{
-        display: none;
-    }
-}
-
-@media (max-width: 1080px) {
-
-    .Luxury_vacation{
-        padding: 10%;
-        padding-top: 4%;
-        padding-left: 10%;
-    }
-    
-    .Group{
-        padding: 30px;
-        padding-left: 0;
-        padding-bottom: 10px;
-    }
-    
-    .conteiner{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .p{
-        margin-top: 30px;
-        padding: 6px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-    }
-    
-    .container h1{
-        padding: 0;
-        padding-top: 30px;
-        font-size: 26px;
-        font-weight: 700;
-    }
-    
-    .logo{
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    
-    .logo p{
-        font-size: 14px;
-        color: #131212;
-        font-weight: 500;
-    }
-    
-    .logo span{
-        font-size: 14px;
-        font-weight: 400;
-        color: #979797;
-    
-        img{
-         padding: 2px 2px;
-        }
-    }
-    
-    .hotel{
-        padding-bottom: 70px;
-        width: 100%;
-    }
-    
-    .container_title{
-        position: relative;
-        display: flex;
-        gap: 20px;
-    }
-
-    .real_eatate_hotel{
-        display: none;
-    }
-    
-    .content{
-        padding-bottom: 200px;
-        width: 800px;
-
-        @media (max-width: 970px) {
-            width: 700px;
-        }
-    }
-    
-    .Teg{
-        position: absolute;
-        top: 93%;
-    }
-    
-    .coment{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding-right: 380px;
-    }
-    
-    .coment h1{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    
-    .inp_a{
-        color: #979797;
-        padding: 12px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    
-    .inp_b{
-        font-size: 16px;
-        font-weight: 400;
-        color: #979797;
-        padding: 12px;
-        padding-bottom: 50px;
-    }
-    
-    .coment button{
-        padding: 14px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-        border: none;
-    }
-    
-    
-    .container_img{
-        padding: 30px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: relative;
-    
-        img{
-            margin-top: 150px;
-            width: 804px;
-            height: 140px;
-
-            @media (max-width: 980px) {
-                width: 704px;
-            }
-        }
-    }
-    
-    .coment_a{
-        position: absolute;
-        top: -35%;
-        left: -9px;
-    }
-    
-    .coment_mob{
-        display: none;
-    }
-}
-
-@media (max-width: 780px) {
-
-    .Luxury_vacation{
-        padding: 10%;
-        padding-top: 4%;
-        padding-left: 10%;
-    }
-    
-    .Group{
-        padding: 30px;
-        padding-left: 0;
-        padding-bottom: 10px;
-    }
-    
-    .conteiner{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .p{
-        margin-top: 30px;
-        padding: 6px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-    }
-    
-    .container h1{
-        padding: 0;
-        padding-top: 30px;
-        font-size: 26px;
-        font-weight: 700;
-    }
-    
-    .logo{
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    
-    .logo p{
-        font-size: 14px;
-        color: #131212;
-        font-weight: 500;
-    }
-    
-    .logo span{
-        font-size: 14px;
-        font-weight: 400;
-        color: #979797;
-    
-        img{
-         padding: 2px 2px;
-        }
-    }
-    
-    .hotel{
-        padding-bottom: 70px;
-        width: 100%;
-    }
-    
-    .container_title{
-        position: relative;
-        display: flex;
-        gap: 20px;
-    }
-
-    .real_eatate_hotel{
-        display: none;
-    }
-    
-    .content{
-        padding-bottom: 200px;
-        width: 100%;
-    }
-    
-    .Teg{
-        position: absolute;
-        width: 100%;
-        top: 93%;
-    }
-    
-    .coment{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding-right: 380px;
-    }
-    
-    .coment h1{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    
-    .inp_a{
-        color: #979797;
-        padding: 12px;
-        font-size: 16px;
-        font-weight: 400;
-        border-radius: 5px;
-        width: 200px;
-    }
-    
-    .inp_b{
-        font-size: 16px;
-        font-weight: 400;
-        color: #979797;
-        padding: 12px;
-        padding-bottom: 50px;
-        border-radius: 5px;
-        width: 300px;
-    }
-    
-    .coment button{
-        padding: 14px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-        border: none;
-    }
-    
-    
-    .container_img{
-        padding: 30px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: relative;
-    
-        img{
-            margin-top: 150px;
-            width: 100%;
-        }
-    }
-    
-    .coment_a{
-        position: absolute;
-        top: -35%;
-        left: -9px;
-    }
-    
-    .coment_mob{
-        display: none;
-    }
-}
-
-@media (max-width: 500px) {
-
-    .Luxury_vacation{
-        padding: 10%;
-        padding-top: 4%;
-        padding-left: 10%;
-    }
-    
-    .Group{
-        padding: 30px;
-        padding-left: 0;
-        padding-bottom: 10px;
-    }
-    
-    .conteiner{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .p{
-        margin-top: 30px;
-        padding: 6px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-    }
-    
-    .container h1{
-        padding: 0;
-        padding-top: 30px;
-        font-size: 26px;
-        font-weight: 700;
-    }
-    
-    .logo{
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    
-    .logo p{
-        font-size: 14px;
-        color: #131212;
-        font-weight: 500;
-    }
-    
-    .logo span{
-        font-size: 14px;
-        font-weight: 400;
-        color: #979797;
-    
-        img{
-         padding: 2px 2px;
-        }
-    }
-    
-    .hotel{
-        padding-bottom: 70px;
-        width: 100%;
-    }
-    
-    .container_title{
-        position: relative;
-        display: flex;
-        gap: 20px;
-    }
-
-    .real_eatate_hotel{
-        display: none;
-    }
-    
-    .content{
-        padding-bottom: 200px;
-        width: 100%;
-    }
-    
-    .Teg{
-        position: absolute;
-        top: 93%;
-        width: 100%;
-    }
-    
-    .coment{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding-right: 380px;
-
-        @media (max-width: 410px) {
-
-            padding-right: 300px;
-        }
-    }
-    
-    .coment h1{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    
-    .inp_a{
-        color: #979797;
-        padding: 12px;
-        font-size: 16px;
-        font-weight: 400;
-        border-radius: 5px;
-        width: 200px;
-    }
-    
-    .inp_b{
-        font-size: 16px;
-        font-weight: 400;
-        color: #979797;
-        padding: 12px;
-        padding-bottom: 50px;
-        border-radius: 5px;
-        width: 300px;
-    }
-    
-    .coment button{
-        padding: 14px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-        border: none;
-        width: 150px;
-    }
-    
-    
-    .container_img{
-        padding: 30px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: relative;
-    
-        img{
-            margin-top: 100px;
-            width: 100%;
-        }
-    }
-    
-    .coment_a{
-        position: absolute;
-        top: -35%;
-        left: -9px;
-    }
-    
-    .coment_mob{
-        display: none;
     }
 }
 
 @media (max-width: 360px) {
 
-    .Luxury_vacation{
-        padding: 10% 6%;
-    }
-    
-    .Group{
-        padding: 30px;
-        padding-left: 0;
-        padding-bottom: 10px;
-    }
-    
-    .conteiner{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .p{
-        margin-top: 10px;
-        padding: 6px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-    }
-    
-    .container h1{
-        display: flex;
-        background-color: white;
-        padding-bottom: 5px;
-        padding-top: 7%;
-        padding-left: 1px;
-        font-size: 20px;
-        position: relative;
-    }
-    
-    .logo{
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-    
-    .logo p{
-        font-size: 14px;
-        color: #131212;
-        font-weight: 500;
-    }
-    
-    .logo span{
-        font-size: 12px;
-        font-weight: 400;
-        color: #979797;
-    
-        img{
-         padding: 2px 2px;
-        }
-    }
-    
-    .hotel{
-        width: 100%;
-        padding-bottom: 30px;
-    }
-    
+
     .container_title{
-        position: relative;
         display: flex;
         flex-direction: column;
-        gap: 20px;
     }
-    
-    .content{
-        padding-bottom: 50px;
-        width: 100%;
-    }
-    
-    .Teg{
+
+    .container_button{
         display: none;
-        position: absolute;
-        top: 93%;
     }
 
     .real_eatate_hotel{
@@ -946,58 +387,6 @@
 
     .commentsList {
         display: none;
-    }
-    
-    .coment h1{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    
-    .inp_a{
-        color: #979797;
-        padding: 12px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    
-    .inp_b{
-        font-size: 16px;
-        font-weight: 400;
-        color: #979797;
-        padding: 12px;
-        padding-bottom: 50px;
-    }
-    
-    .coment button{
-        padding: 14px;
-        font-size: 12px;
-        max-width: 150px;
-        color: white;
-        background: linear-gradient(90deg, #AF802A, #DFC464);
-        text-align: center;
-        border: none;
-    }
-    
-    
-    .container_img{
-        display: none;
-    
-        img{
-            margin-top: 150px;
-            width: 864px;
-            height: 140px;
-        }
-    }
-    
-    .coment_a{
-        position: absolute;
-        top: -35%;
-        left: -9px;
-    }
-
-    .coment_mob{
-        display: flex;
-        width: 100%;
     }
 }
 

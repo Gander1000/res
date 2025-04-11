@@ -1,28 +1,91 @@
 import { redirect } from "react-router-dom";
 import scss from "./Interview.module.scss";
-import card_20 from "../../assets/4_card_news_20.svg";
-import card_21 from "../../assets/4_card_news_21.svg";
-import card_22 from "../../assets/4_card_news_22.svg";
-import card_23 from "../../assets/4_card_news_23.svg";
+import image from "../../assets/photo29.svg";
+import image_1 from "../../assets/photo30.svg";
+import image_2 from "../../assets/photo31.svg";
+import image_3 from "../../assets/photo32.svg";
+import Ellipse from "../../assets/Ellipse.svg";
 
 function Interview() {
   return (
     <section className={scss.Interview}>
       <div className={scss.logo}>
         <h1 className={scss.h1}>ИНТЕРВЬЮ</h1>
+        <hr className={scss.hr} />
       </div>
-      <hr className={scss.Lini} />
-      <div className={scss.cart}>
-        <img src={card_20} alt="" />
-        <img src={card_21} alt="" />
-        <img src={card_22} alt="" />
-        <img src={card_23} alt="" />
-      </div>
-      <div className={scss.cart}>
-        <img src={card_20} alt="" />
-        <img src={card_21} alt="" />
-        <img src={card_22} alt="" />
-        <img src={card_23} alt="" />
+      <div className={scss.container}>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>Москва - жилой дом премиум-класса в Кыргызстане</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image_1} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>UNO City - новый город-курорт в Кыргызстане</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image_2} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>Взять квартиру в ипотеку в Бишкеке: миссия выполнима?</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image_3} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>Секреты Дубай, недвижимость за рубежом в Кыргызстане</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>Москва - жилой дом премиум-класса в Кыргызстане</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image_1} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>UNO City - новый город-курорт в Кыргызстане</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image_2} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>Взять квартиру в ипотеку в Бишкеке: миссия выполнима?</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
+        <div className={scss.cub_img}>
+          <img className={scss.Popular} src={image_3} alt="1" />
+          <p>НЕДВИЖИМОСТЬ</p>
+          <span>Секреты Дубай, недвижимость за рубежом в Кыргызстане</span>
+          <h6>
+            1 февраля 2024
+            <img src={Ellipse} alt="" />3 мин
+          </h6>
+        </div>
       </div>
     </section>
   );

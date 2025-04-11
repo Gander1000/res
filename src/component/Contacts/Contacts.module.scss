@@ -5,22 +5,55 @@
     display: flex;
     color: white;
     gap: 50px;
+
+}
+
+.contai{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 870px) {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 .container{
+    padding: 3%;
+    background-color: black;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    gap: 43px;
-    background-color: black;
-    padding: 40px 40px;
-    width: 560px;
-    height: 500px;
+    gap: 40px;
 }
 
-.Logo{
-    width: 100%;
-}
+.contei_contac{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
+    button{
+        padding: 5px 15px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        background: linear-gradient(90deg, #AF802A, #DFC464);
+        max-width: 110px;
+    }
+
+    h1{
+        background-color: black;
+        color: white;
+        padding: 0;
+    }
+
+    h5{
+        color: #979797;
+    }
+}
 
 .Linc{
     display: flex;
@@ -28,410 +61,82 @@
     gap: 10px;
 
     a{
-        font-size: 17px;
-        font-weight: 500;
         color: #FFFFFF;
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 4px; 
+        font-size: 16px;
+        font-weight: 500; 
     }
+}
+
+.Logo{
+    width: 100%;
+
+    @media (max-width: 1300px) {
+        max-width: 500px;
+        height: 100%;
+    }
+
+    @media (max-width: 1080px) {
+        max-width: 400px;
+        height: 100%;
+    }
+
+    @media (max-width: 870px) {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.contei_sv{
+    display: flex;
+    gap: 33%;
+}
+
+.cub_a{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    color: #979797;
+}
+
+.cub_b{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+    font-size: 14px;
 }
 
 .container_Linc{
     display: flex;
-    gap: 40px;
+    gap: 20%;
+
+    @media (max-width: 1000px) {
+        display: flex;
+        gap: 10%;
+    }
+
+    @media (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
 
     p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 12px;
-        font-weight: 400;
         color: #979797;
+        display: flex;
+        align-items: end;
     }
 }
 
-@media (max-width: 1300px) {
-
-    .Contacts{
-        padding: 10%;
-        padding-top: 1%;
-        padding-left: 10%;
-        display: flex;
-        color: white;
-        gap: 50px;
-    }
-
-    .Logo{
-        width: 100%;
-    }
-
-    .contacts_img{
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .status{
-        width: 100%;
-    }
-    
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        background-color: black;
-        padding: 40px 40px;
-        width: 100%;
-        max-width: 600px;
-    }
-    
-    
-    .Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    
-        a{
-            font-size: 17px;
-            font-weight: 500;
-            color: #FFFFFF;
-            text-decoration: underline;
-            text-decoration-thickness: 1px;
-            text-underline-offset: 4px; 
-        }
-    }
-    
-    .container_Linc{
-        display: flex;
-        gap: 10px;
-    
-        p{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            font-weight: 400;
-            color: #979797;
-        }
-    }
+.mes{
+    display: flex;
+    padding-top: 20px;
+    align-items: start;
 }
 
-@media (max-width: 1080px) {
-
-    .Contacts{
-        padding: 10%;
-        padding-top: 1%;
-        padding-left: 15%;
-        padding-right: 10%;
-        display: flex;
-        color: white;
-        gap: 50px;
-    }
-
-    .contacts_img{
-        width: 100%;
-    }
-
-    .status{
-        width: 100%;
-    }
-
-    .Logo{
-        width: 100%;
-        height: 100%;
-        max-width: 300px;
-
-        @media (max-width: 780px) {
-
-            width: 100%;
-            height: 100%;
-            max-width: 600px;
-
-        }
-    }
-    
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        background-color: black;
-        padding: 40px 40px;
-        width: 100%;
-        max-width: 300px;
-    }
-    
-    
-    .Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    
-        a{
-            font-size: 17px;
-            font-weight: 500;
-            color: #FFFFFF;
-            text-decoration: underline;
-            text-decoration-thickness: 1px;
-            text-underline-offset: 4px; 
-        }
-    }
-    
-    .container_Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    
-        p{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            font-weight: 400;
-            color: #979797;
-        }
-    }
-}
-
-@media (max-width: 780px) {
-
-    .Contacts{
-        padding: 10%;
-        padding-top: 1%;
-        padding-left: 10%;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        gap: 50px;
-    }
-
-    .contacts_img{
-        width: 100%;
-    }
-
-    .status{
-        width: 100%;
-    }
 
 
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 43px;
-        background-color: black;
-        padding: 40px 40px;
-        width: 100%;
-        max-width: 520px;
-
-        @media (max-width: 700px) {
-
-            display: flex;
-            flex-direction: column;
-            gap: 43px;
-            background-color: black;
-            padding: 40px 40px;
-            width: 100%;
-            max-width: 480px;
-
-        }
-
-        @media (max-width: 650px) {
-
-            display: flex;
-            flex-direction: column;
-            gap: 43px;
-            background-color: black;
-            padding: 40px 40px;
-            width: 100%;
-            max-width: 420px;
-
-        }
-
-        @media (max-width: 580px) {
-
-            display: flex;
-            flex-direction: column;
-            gap: 43px;
-            background-color: black;
-            padding: 40px 40px;
-            width: 100%;
-            max-width: 375px;
-
-        }
-
-    }
-    
-    
-    .Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    
-        a{
-            font-size: 17px;
-            font-weight: 500;
-            color: #FFFFFF;
-            text-decoration: underline;
-            text-decoration-thickness: 1px;
-            text-underline-offset: 4px; 
-        }
-    }
-    
-    .container_Linc{
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    
-        p{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            font-weight: 400;
-            color: #979797;
-        }
-    }
-}
-
-@media (max-width: 500px) {
-
-    .Contacts{
-        padding: 10%;
-        padding-top: 1%;
-        padding-left: 10%;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        gap: 50px;
-    }
-
-    .contacts_img{
-        width: 100%;
-    }
-
-    .status{
-        width: 100%;
-    }
-    
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 43px;
-        background-color: black;
-        padding: 40px 40px;
-        width: 100%;
-        max-width: 230px;
-    }
-    
-    
-    .Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    
-        a{
-            font-size: 17px;
-            font-weight: 500;
-            color: #FFFFFF;
-            text-decoration: underline;
-            text-decoration-thickness: 1px;
-            text-underline-offset: 4px; 
-        }
-    }
-    
-    .container_Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    
-        p{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            font-weight: 400;
-            color: #979797;
-        }
-    }
-}
-
-@media (max-width: 360px) {
-
-    .Contacts{
-        position: relative;
-        padding: 10% 6%;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        gap: 20px;
-    }
-
-    
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        background-color: black;
-        padding: 20px 20px;
-        padding-bottom: 0;
-        width: 265px;
-        height: 400px;
-
-        @media (max-width: 320px) {
-            width: 100%;
-            max-width: 242px;
-        }
-
-    }
-
-    .logo{
-        width: 100%;
-    }
-
-    .status{
-        width: 100%;
-    }
-    
-    
-    .Linc{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    
-        a{
-            font-size: 15px;
-            font-weight: 500;
-            color: #FFFFFF;
-            text-decoration: underline;
-            text-decoration-thickness: 1px;
-            text-underline-offset: 4px; 
-        }
-    }
-
-    .contacts_img{
-        width: 100%;
-    }
-    
-    .container_Linc{
-        position: absolute;
-        padding-left: 1px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        top: 83%;
-        
-    
-        p{
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 10px;
-            font-weight: 400;
-            color: #979797;
-        }
-    }
-
-    .mes{
-      
-    }
-}

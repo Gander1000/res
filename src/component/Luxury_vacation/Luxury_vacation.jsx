@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import scss from "./Luxury_vacation.module.scss";
 import Group from "../../assets/Group.svg";
 import hotel from "../../assets/banner_hotel.svg";
-import content from "../../assets/content.svg";
-import real_eatate_hotel from "../../assets/real_eatate_hotel.svg";
-import Frame from "../../assets/Frame.svg";
+import image_o from "../../assets/photos.svg";
+import image_b from "../../assets/113.svg";
+import image from "../../assets/photo25.svg";
+import image_1 from "../../assets/photo26.svg";
+import image_2 from "../../assets/photo27.svg";
+import image_3 from "../../assets/photo28.svg";
 import Ellipse from "../../assets/Ellipse.svg";
-import real_eatate_15 from "../../assets/real_eatate_15.svg";
 
 function Luxury_vacation() {
   const [name, setName] = useState("");
@@ -60,12 +62,102 @@ function Luxury_vacation() {
         <img className={scss.hotel} src={hotel} alt="Hotel" />
 
         <div className={scss.container_title}>
-          <img className={scss.content} src={content} alt="Content" />
-          <img className={scss.real_eatate_hotel} src={real_eatate_hotel} alt="Hotel" />
-          <img className={scss.Teg} src={Frame} alt="Frame" />
+          <div className={scss.conteiner}>
+            <div>
+              <h1>Миссия - За гранью обычного</h1>
+              <span>
+                Мы видим свое предназначение в том, чтобы объединить мир через
+                истинное кыргызское гостеприимство и национальную культуру.
+                Через улучшение качества сервиса, обеспечивать процветание
+                компании и сотрудников. Главная цель - превзойти ожидания наших
+                гостей. Орион - больше, чем отель! Мы видим свое предназначение
+                в том, чтобы объединить мир через истинное кыргызское
+                гостеприимство и национальную культуру. Через улучшение качества
+                сервиса, обеспечивать процветание компании и сотрудников.
+              </span>
+            </div>
+            <div className={scss.img_comtei}>
+              <img src={image_o} alt="" />
+            </div>
+            <div className={scss.title}>
+              <h1>Место для деловых встреч</h1>
+              <span>
+                В отеле «Орион» есть не только уютные номера и прекрасный
+                ресторан, но и высококлассный конференц-зал, который поразит
+                своей современной аудиовизуальной техникой и функциональностью.
+                Он является идеальным местом для проведения деловых встреч,
+                конференций и частных ужинов.
+              </span>
+              <p>
+                Конференц-зал «Ак-Сай» имеет площадь в 123 квадратных метра,
+                а его вместимость составляет от 35 до 100 человек в зависимости
+                от рассадки. П-образная рассадка вмещает до 30 человек,
+                а в театральной версии зала могут поместиться до 100 гостей.
+              </p>
+              <div className={scss.contei_img_title}>
+                <img src={image_b} alt="" />
+                <span>
+                  В отеле «Орион» - это не только место для отдыха и проживания,
+                  но и идеальное место для проведения деловых и культурных
+                  мероприятий в самом центре Бишкека. Конференц-зал - прекрасный
+                  выбор для тех, кто ищет место для проведения важных
+                  мероприятий в комфортном и уютном атмосферном. Современное
+                  оборудование и внимательный персонал гарантируют, что каждое
+                  мероприятие.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={scss.contoiner}>
+            <h1>Читайте также:</h1>
+            <div className={scss.cub_img}>
+              <img className={scss.Popular} src={image} alt="1" />
+              <p>НЕДВИЖИМОСТЬ</p>
+              <span>Sumbule - SPA центр незабываемого отдыха, красоты и здоровья</span>
+              <h6>
+                1 февраля 2024
+                <img src={Ellipse} alt="" />3 мин
+              </h6>
+            </div>
+            <div className={scss.cub_img}>
+              <img className={scss.Popular} src={image_1} alt="1" />
+              <p>НЕДВИЖИМОСТЬ</p>
+              <span>Palazzo - ресторан премиум-класса</span>
+              <h6>
+                1 февраля 2024
+                <img src={Ellipse} alt="" />3 мин
+              </h6>
+            </div>
+            <div className={scss.cub_img}>
+              <img className={scss.Popular} src={image_2} alt="1" />
+              <p>НЕДВИЖИМОСТЬ</p>
+              <span>Москва - жилой дом премиум-класса</span>
+              <h6>
+                1 февраля 2024
+                <img src={Ellipse} alt="" />3 мин
+              </h6>
+            </div>
+            <div className={scss.cub_img}>
+              <img className={scss.Popular} src={image_3} alt="1" />
+              <p>НЕДВИЖИМОСТЬ</p>
+              <span>UNO City - новый город-курорт в Кыргызстане</span>
+              <h6>
+                1 февраля 2024
+                <img src={Ellipse} alt="" />3 мин
+              </h6>
+            </div>
+          </div>
         </div>
 
-        <img className={scss.coment_mob} src={real_eatate_15} alt="Comments" />
+        <div className={scss.container_button}>
+          <h1>теги:</h1>
+          <div className={scss.comtei_buttom}>
+          <button>отель</button>
+          <button>роскошный отдых</button>
+          <button>отдых</button>
+          <button>место встречи</button>
+          </div>
+        </div>
 
         <div className={scss.coment}>
           <h1>ОТЗЫВЫ</h1>
@@ -103,4 +195,3 @@ function Luxury_vacation() {
 }
 
 export default Luxury_vacation;
-

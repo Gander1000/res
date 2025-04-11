@@ -3,55 +3,132 @@ import Hotel from "../../assets/Hotel.svg";
 import photo from "../../assets/photo.svg";
 import photo_a from "../../assets/photo_a.svg";
 import photo_b from "../../assets/photo_b.svg";
-import photo_d from "../../assets/photo_d.svg"; 
+import photo_d from "../../assets/photo_d.svg";
 import Ellipse from "../../assets/Ellipse.svg";
-import real_eatate from "../../assets/real_eatate.svg";
-import image from "../../assets/110.svg";
-import real_eatate_13 from "../../assets/real_eatate_13.svg";
+import image from "../../assets/photo20.svg";
+import image_1 from "../../assets/photo21.svg";
+import image_2 from "../../assets/photo22.svg";
+import image_3 from "../../assets/photo23.svg";
+import image_4 from "../../assets/photo24.svg";
 
-function LuxuryVacation () {
-    return(
-        <section className={scss.LuxuryVacation}>
-             <h1 className={scss.logo}>РАСКОШНЫЙ ОДТЫХ</h1>
-             <hr className={scss.Lini} />           
-            <div className={scss.container}>
-                <img className={scss.Hotel} src={Hotel} alt="" />
-                <div className={scss.cub_image}>
-                    <div className={scss.mini_cub}>
-                    <img src={photo} alt="" />
-                    <img src={photo_a} alt="" />
-                    </div>
-                    <div className={scss.Cub_title}>
-                <div className={scss.title}>
-                    <p>РАСКОШНЫЙ ОДТЫХ</p>
-                    <h1>Sumbule - SPA центр <br /> незабываемого отдыха, <br /> красоты и здоровья</h1>
-                    <span className={scss.time}>1 февраля 2024 <img src={Ellipse} alt="" /> 3 мин</span>
-                </div>
-                <div className={scss.title}>
-                    <p>РАСКОШНЫЙ ОДТЫХ</p>
-                    <h1>Palazzo - ресторан премиум- <br />класса</h1>
-                    <span className={scss.time}>1 февраля 2024 <img src={Ellipse} alt="" /> 1 мин</span>
-                </div>
-                </div>
-                    <div className={scss.mini_cub}>
-                    <img src={photo_b} alt="" />
-                    <img src={photo_d} alt="" />
-                    </div>
-                </div>
+function LuxuryVacation() {
+  return (
+    <section className={scss.LuxuryVacation}>
+      <div className={scss.logo}>
+        <h1>РАСКОШНЫЙ ОДТЫХ</h1>
+        <hr />
+      </div>
+      <div className={scss.container}>
+        <img className={scss.Hotel} src={Hotel} alt="" />
+        <div className={scss.cub_image}>
+          <div className={scss.mini_cub}>
+            <div className={scss.cub_im}>
+              <img src={photo} alt="" />
+              <p>роскошный отдых</p>
+              <span>
+                Sumbule - SPA центр незабываемого отдыха, красоты и здоровья
+              </span>
+              <h6>
+                1 февраля 2024
+                <img src={Ellipse} alt="" />3 мин
+              </h6>
             </div>
-            <div className={scss.container_mob}>
-                <img className={scss.Lux} src={image} alt="" />
+            <div className={scss.cub_im}>
+              <img src={photo_a} alt="" />
+              <p>роскошный отдых</p>
+              <span>Palazzo - ресторан премиум-класса</span>
+              <h6>
+                1 февраля 2024
+                <img src={Ellipse} alt="" />3 мин
+              </h6>
             </div>
-            <div className={scss.container_a}>
-                <div className={scss.image}>
-                    <img src={real_eatate} alt="" />
-                </div>
-                <div className={scss.image_mob}>
-                    <img className={scss.Lux} src={real_eatate_13} alt="" />
-                </div>
+            <div className={scss.cub_im}>
+              <img src={photo_b} alt="" />
             </div>
-        </section>
-    );
+            <div className={scss.cub_im}>
+              <img src={photo_d} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={scss.container_a}>
+        <div className={scss.conteiner}>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_4} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>Москва - жилой дом премиум-класса в Кыргызстане</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_3} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>UNO City - новый город-курорт в Кыргызстане</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_4} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>Взять квартиру в ипотеку в Бишкеке: миссия выполнима?</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_3} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>Секреты Дубай, недвижимость за рубежом в Кыргызстане</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>Москва - жилой дом премиум-класса в Кыргызстане</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_1} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>UNO City - новый город-курорт в Кыргызстане</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_2} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>Взять квартиру в ипотеку в Бишкеке: миссия выполнима?</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+          <div className={scss.cub_img}>
+            <img className={scss.Popular} src={image_3} alt="1" />
+            <p>НЕДВИЖИМОСТЬ</p>
+            <span>Секреты Дубай, недвижимость за рубежом в Кыргызстане</span>
+            <h6>
+              1 февраля 2024
+              <img src={Ellipse} alt="" />3 мин
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default LuxuryVacation
+export default LuxuryVacation;

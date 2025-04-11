@@ -1,9 +1,11 @@
 .Heder {
+  position: sticky;
   z-index: 1000;
+  top: 0;
   display: flex;
   width: 100%;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-  position: relative;
+  background-color: white;
 }
 
 .Heder_mob {
@@ -675,6 +677,14 @@
 }
 
 @media (max-width: 750px) {
+
+  .Heder {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: white;
+  }
+
   .Heder_mob {
     position: relative;
     margin-top: 20px;
@@ -987,7 +997,6 @@
 
 @media (max-width: 500px) {
   .Heder_mob {
-    position: relative;
     margin-top: 20px;
     padding: 30px 50px;
     padding-top: 0;
@@ -1271,7 +1280,6 @@
 
 @media (max-width: 390px) {
   .Heder_mob {
-    position: relative;
     margin-top: 20px;
     padding: 20px;
     padding-top: 0;

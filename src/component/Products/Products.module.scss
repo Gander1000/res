@@ -7,9 +7,10 @@
   
   .contai{
       background-color: white;
+      display: flex;
+      flex-direction: column;
   }
 
-  
   .contai_logo{
     padding: 0 25px;
   }
@@ -21,30 +22,94 @@
     .next {
       background-color: white;
       position: absolute;
-      top: 32%;
+      top: 20%;
       left: 97%;
     }
 
     hr {
       position: absolute;
-      top: 100%;
+      top: 70%;
       width: 100%;
       border: none;
       left: 0;
       height: 3px;
       background: linear-gradient(90deg, #AF802A, #DFC464);
   }
+
   }
   
   .h1 {
     background-color: white;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-left: 0;
     padding-top: 2%;
     font-size: 24px;
   }
+
+  .container_body{
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+  }
   
+  .Resta{
+    width: 50%;
+  }
   
+  .container_title {
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 50%;
+  }
+  
+  .contei_title{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .cub_title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  
+    p {
+      font-weight: 600;
+      font-size: 12px;
+      background: linear-gradient(90deg, #AF802A, #DFC464);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  span{
+      padding: 0;
+      line-height: 1.1;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  h6{
+      font-size: 13px;
+      font-weight: 400;
+      color: #979797;
+      display: flex;
+      gap: 5px;
+  
+      img{
+        padding-top: 5px;
+        width: 100%;
+        max-width: 4px;
+        max-height: 4px;
+      }
+  }
+  
+  }
+
   .container {
     background-color: white;
     padding-top: 10px;
@@ -53,25 +118,50 @@
     display: flex;
     padding: 2%;
     gap: 20px;
-  
+    
   }
   
-  .Popular{
-      width: 100%;
-      background-color: white;
-  }
-
-  .Res{
-    width: 320px;
-  }
-
-  .Products_con{
-    padding-bottom: 20px;
-    padding-right: 40px;
+  .cub_img{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
+  
+    img{
+      width: 310px;
+      height: 310px;
+      object-fit: cover;
+    }
+  
+    p {
+      font-weight: 600;
+      font-size: 12px;
+      background: linear-gradient(90deg, #AF802A, #DFC464);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  span{
+      padding: 0;
+      line-height: 1.1;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  h6{
+      font-size: 13px;
+      font-weight: 400;
+      color: #979797;
+      display: flex;
+      gap: 5px;
+  
+      img{
+        padding-top: 5px;
+        width: 100%;
+        max-width: 4px;
+        max-height: 4px;
+      }
+  }
+  
   }
 
   @media (max-width: 1300px) {
