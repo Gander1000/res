@@ -9,6 +9,7 @@ import Reclam from "./component/Reclam/Reclam"
 import Reclam_a from "./component/Reclam_a/Reclam_a"
 import Reclam_b from "./component/Reclam_b/Recalm_b"
 import Rest from "./component/Rest/Rest"
+import Reclam_d from "./component/Reclam_d/Reclam_d"
 
 
 const Home = ()=>{
@@ -22,6 +23,7 @@ const Home = ()=>{
               <Rest />
               <Reclam_b/>
               <Founder />
+              <Reclam_d/>
               <Products />
               <Offer />
               <Foter />
