@@ -74,9 +74,6 @@ const Offer = () => {
           <h1>
             ПРЕДЛОЖЕНИЯ <br /> ОТ КОМПАНИИ
           </h1>
-          <h1 className={scss.h1}>
-            ПРЕДЛОЖЕНИЯ ОТ <br /> КОМПАНИИ
-          </h1>
           <hr />
         </div>
         <Slider ref={sliderRef} {...settings} className={scss.reklam}>

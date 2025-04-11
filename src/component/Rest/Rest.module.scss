@@ -84,6 +84,10 @@
   gap: 80px;
   width: 50%;
 
+  @media (max-width: 1300px) {
+    gap: 50px;
+  }
+
   @media (max-width: 780px) {
     width: 100%;
   }

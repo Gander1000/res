@@ -16,6 +16,8 @@
     @media (max-width: 870px) {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 30px;
     }
 }
@@ -71,12 +73,10 @@
     width: 100%;
 
     @media (max-width: 1300px) {
-        max-width: 500px;
         height: 100%;
     }
 
     @media (max-width: 1080px) {
-        max-width: 400px;
         height: 100%;
     }
 

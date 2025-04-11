@@ -7,11 +7,20 @@ import Luxury_vacation_way from "./Luxury_vacation_way";
 import LuxuryVacation_way from "./LuxuryVacation_way";
 import Contacts_way from "./Contacts_way";
 import Adout_us_way from "./Adout_us_way";
+import Users from "./component/Users";
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route
+          path="/."
+          element={
+            <>
+              <Users />
+            </>
+          }
+        />
         <Route
           path="/"
           element={
@@ -40,7 +49,7 @@ function App() {
           path="/Luxury_vacation"
           element={
             <>
-            <Luxury_vacation_way/>
+              <Luxury_vacation_way />
             </>
           }
         />
@@ -48,7 +57,7 @@ function App() {
           path="/LuxuryVacation"
           element={
             <>
-            <LuxuryVacation_way/>
+              <LuxuryVacation_way />
             </>
           }
         />
@@ -56,7 +65,7 @@ function App() {
           path="/Contacts"
           element={
             <>
-            <Contacts_way/>
+              <Contacts_way />
             </>
           }
         />
@@ -64,7 +73,7 @@ function App() {
           path="/Adout_us"
           element={
             <>
-            <Adout_us_way/>
+              <Adout_us_way />
             </>
           }
         />
