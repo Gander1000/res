@@ -276,8 +276,7 @@
     padding: 15px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
+    border: solid 1px rgb(150, 150, 150);
     transition: opacity 0.3s ease-in-out;
     opacity: 1;
 }

@@ -14,7 +14,6 @@ const Heder = () => {
   const [inputValue, setInputValue] = useState("");
   const [isSearchOpen, setSearchOpen] = useState(false);
 
-
   const toggleDropdown = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
@@ -123,9 +122,9 @@ const Heder = () => {
             />
           </a>
           <div className={scss.container_a}>
-            <a className={scss.a_a} href="#">
-              ПРОДУКТЫ
-            </a>
+            <Link className={scss.a_a} to="/Adout_us">
+              КОМПАНИЯ
+            </Link>
             <Link className={scss.a_a} to="/Interview">
               ИНТЕРВЬЮ
             </Link>
