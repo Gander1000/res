@@ -347,11 +347,13 @@
     .container{
         padding-bottom: 18px;
         display: flex;
-        gap: 40%;
+        gap: 30%;
     }
     
     .socialnetworks{
         padding-top: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
     
     .Lini {
@@ -573,11 +575,13 @@
     .container{
         padding-bottom: 18px;
         display: flex;
-        gap: 8%;
+        gap: 5%;
     }
     
     .socialnetworks{
         padding-top: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
     
     .Lini {
