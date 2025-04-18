@@ -84,34 +84,6 @@ const Heder = () => {
                 </Link>
               </div>
             </div>
-
-            {activeIndex === 1 && (
-              <div className={scss.dropdown}>
-                <Link className={scss.a_a} to="/Luxury_vacation">
-                  ОТЕЛИ
-                </Link>
-                <a className={scss.a_a} href="#">
-                  РЕСТОРАНЫ
-                </a>
-                <Link className={scss.a_a} to="/LuxuryVacation">
-                  СПА-САЛОНЫ
-                </Link>
-              </div>
-            )}
-
-            {activeIndex === 1 && (
-              <div className={scss.dropdown}>
-                <Link className={scss.a_a} to="/Luxury_vacation">
-                  ОТЕЛИ
-                </Link>
-                <a className={scss.a_a} href="#">
-                  РЕСТОРАНЫ
-                </a>
-                <Link className={scss.a_a} to="/LuxuryVacation">
-                  СПА-САЛОНЫ
-                </Link>
-              </div>
-            )}
           </div>
           <a className={scss.a_a} href="#" onClick={() => toggleDropdown(2)}>
             ДИЗАЙН
@@ -141,7 +113,7 @@ const Heder = () => {
           >
             <img
               className={scss.sc}
-              src={search || "default-image.png"}
+              src={search}
               alt="Search"
               onClick={() => setSearchOpen(true)}
             />

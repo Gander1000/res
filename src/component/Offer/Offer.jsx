@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import scss from "./Offer.module.scss";
 import next_a from "../../assets/next_a.svg";
-import next_b from "../../assets/next_b.svg";
+import prev_b from "../../assets/next_b.svg";
 import banner from "../../assets/banner_7.svg";
 import banner_a from "../../assets/banner_8.svg";
 import banner_b from "../../assets/banner_9.svg";
@@ -89,7 +89,7 @@ const Offer = () => {
         </Slider>
         <div className={scss.next}>
           <button className={scss.b} onClick={prevSlide}>
-            <img src={next_b} alt="Previous" />
+            <img src={prev_b} alt="Previous" />
           </button>
           <button className={scss.a} onClick={nextSlide}>
             <img src={next_a} alt="Next" />
