@@ -179,7 +179,7 @@ const Heder = () => {
                       НЕДВИЖИМОСТЬ
                       <img
                         className={`${scss.Clic} ${
-                          openSubMenu === 3 ? scss.active : ""
+                          openSubMenu === 1 ? scss.active : ""
                         }`}
                         src={image || "default-image.png"}
                         alt="Arrow"

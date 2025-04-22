@@ -1,0 +1,52 @@
+.users {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+  
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .searchInput {
+      padding: 0.5rem 1rem;
+      width: 100%;
+      font-size: 16px;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+  
+      &:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+      }
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid #ddd;
+  
+        &:last-child {
+          border-bottom: none;
+        }
+  
+        strong {
+          color: #333;
+        }
+  
+        span {
+          color: #666;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  

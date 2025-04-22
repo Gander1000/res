@@ -359,7 +359,7 @@
     .Lini {
         position: absolute;
         width: 85%;
-        left: 50px;
+        left: 35px;
         border: none;
         height: 4px;
         background: linear-gradient(90deg, #AF802A, #DFC464);
@@ -384,6 +384,7 @@
     .Logo{
         display: flex;
         width: 120px;
+        padding-left: 0;
     }
     
     .Fot{
@@ -611,6 +612,7 @@
     .Logo{
         display: flex;
         width: 118px;
+        padding-left: 0;
     }
     
     .Fot{
