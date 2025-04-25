@@ -109,6 +109,11 @@ const Heder = () => {
             <Link className={scss.a_a} to="/Contacts">
               КОНТАКТЫ
             </Link>
+            <div className={scss.api_link}>
+              <Link to="/Users" className={scss.a_a} href="#">
+                <img className={scss.api} src={API} alt="" />
+              </Link>
+            </div>
           </div>
         </nav>
         <div className={scss.sc}>
@@ -152,11 +157,6 @@ const Heder = () => {
               </div>
             )}
           </div>
-        </div>
-        <div className={scss.api_link}>
-          <Link to="/Users" className={scss.a_a} href="#">
-            <img className={scss.api} src={API} alt="" />
-          </Link>
         </div>
       </div>
       <div className={scss.Heder_mob}>
@@ -299,6 +299,21 @@ const Heder = () => {
                       />
                     </Link>
                   </div>
+                  <div className={scss.menuItem}>
+                    <Link to="/Users"
+                      className={scss.a_a}
+                      href="#"
+                      onClick={() => toggleSubMenu(7)}>
+                      <img className={scss.api} src={API} alt="" />
+                      <img
+                        className={`${scss.Clic} ${
+                          openSubMenu === 7 ? scss.active : ""
+                        }`}
+                        src={image || "default-image.png"}
+                        alt="Arrow"
+                      />
+                    </Link>
+                  </div>
                 </nav>
               </div>
             </div>
@@ -359,3 +374,5 @@ const Heder = () => {
 };
 
 export default Heder;
+
+
