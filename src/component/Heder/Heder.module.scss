@@ -118,6 +118,18 @@
   position: relative;
 }
 
+.api_link{
+  padding: 0 25px;
+}
+
+.api{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
 .container_a {
   text-decoration: none;
   color: #131212;

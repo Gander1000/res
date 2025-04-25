@@ -6,6 +6,7 @@ import search from "../../assets/search.svg";
 import Logo from "../../assets/Logo_resident_text.svg";
 import menu from "../../assets/burger_menu.svg";
 import close from "../../assets/close.svg";
+import API from "../../assets/API.png";
 
 const Heder = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -85,14 +86,19 @@ const Heder = () => {
               </div>
             </div>
           </div>
-          <a className={scss.a_a} href="#" onClick={() => toggleDropdown(2)}>
+          <Link
+            to="/"
+            className={scss.a_a}
+            href="#"
+            onClick={() => toggleDropdown(2)}
+          >
             ДИЗАЙН
             <img
               className={`${scss.Clic} ${activeIndex === 2 ? scss.active : ""}`}
               src={image}
               alt=""
             />
-          </a>
+          </Link>
           <div className={scss.container_a}>
             <Link className={scss.a_a} to="/Adout_us">
               КОМПАНИЯ
@@ -147,8 +153,12 @@ const Heder = () => {
             )}
           </div>
         </div>
+        <div className={scss.api_link}>
+          <Link to="/Users" className={scss.a_a} href="#">
+            <img className={scss.api} src={API} alt="" />
+          </Link>
+        </div>
       </div>
-
       <div className={scss.Heder_mob}>
         {isMenuOpen && <div className={scss.blurBackground}></div>}
 

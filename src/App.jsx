@@ -7,17 +7,17 @@ import Luxury_vacation_way from "./Luxury_vacation_way";
 import LuxuryVacation_way from "./LuxuryVacation_way";
 import Contacts_way from "./Contacts_way";
 import Adout_us_way from "./Adout_us_way";
-import Users from "./component/Users";
+import Users_way from "./Users_way";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route
-          path="/."
+          path="/Users"
           element={
             <>
-              <Users />
+              <Users_way />
             </>
           }
         />
